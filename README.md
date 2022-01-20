@@ -11,6 +11,8 @@ Training:
 # Hyperparamter tuning
  For this experiment, I used ResNet18 model. Among other pre-trained models, ResNet(18) model is popularly used. It provides a fair balance between the model accuracy to the number of operations needed to excecute. Though ResNet18 model might tend to have a lower accuracy, It is comparably faster to train with than ResNet 50
  # completed training job
+ ![image](https://user-images.githubusercontent.com/94250309/150440158-12c2067a-9c5f-4b14-9d36-6d366fdd9a48.png)
+
  # project pipeline
 Deployment:i
 
