@@ -10,5 +10,5 @@ the notebook environment is prepared by installing all the required dependencies
 Training:
 #Hyperparameter tuning
  For this experiment, I used ResNet18 model. Among many other pre-trained models, ResNet(18) model is popularly used. It provides a fair balance between the model accuracy to the number of operations needed to excecute. Though ResNet18 model might tend to lower accuracy, It is comparably faster to train with than ResNet 50
-Deployment:
+Deployment:i
 
