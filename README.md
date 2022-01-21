@@ -27,6 +27,7 @@ model loss ought to decrease
 
 ### Results
 ![image](https://user-images.githubusercontent.com/94250309/150447690-6267d9db-f71d-425a-87d1-1d2b8f852c22.png)
+
 the CrossEntropyLoss_output tend to decrease during training which is good, no over fitting recorded
 
 
