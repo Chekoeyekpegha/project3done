@@ -29,8 +29,7 @@ two hyperparameters were tuned which are batch size and learning rate
 
 ## Debugging and Profiling
 The training performance is checked by sagemaker debugger
-During your training job, the Dataloader rule was the most frequently triggered
-model loss ought to decrease
+During your training job, the IOBottleneck rule was the most frequently triggered. It processed 476 datapoints and was triggered 0 times.
 
 ### Results
 ![image](https://user-images.githubusercontent.com/94250309/150639584-2928e523-1955-4da4-84fd-df2408360d2d.png)
