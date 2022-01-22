@@ -2,7 +2,13 @@
 This is the third project in the AWS machine learning nanodegree program. AWS sagemaker was used to fine-tune the ResNet18 pretained model on the dog breed dataset available in 
 https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/dogImages.zip
 The project was completed by making good use of the tools available to a machine learning engineer. Among such tools are the Pytorch framework, a pretrained model, profiler,
-debugger, together with the model to train and deploy an endpoint.
+debugger, together with the model to train and deploy an endpoint. The python scripts used as entry_points for the estimators are as follows respectively: hpo.py, train_model.py and inference.py, these are also present in the folder. The Functional API in PyTorch is used to create the network with the ResNet18 retrained model
+
+hpo.py script was used for hperparameter tuning after which the best sets of hypermaters were used in training
+
+train_model.py script was used to perform model profiling and debugging. The hook function required for debugging was stated
+
+reference.py script used as entry point for model deployment makes it possible for data(image) to be passed to the endpoint for testing
 
 # project pipeline
 data preparations:
