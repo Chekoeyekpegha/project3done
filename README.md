@@ -32,7 +32,8 @@ During your training job, the Dataloader rule was the most frequently triggered
 model loss ought to decrease
 
 ### Results
-![image](https://user-images.githubusercontent.com/94250309/150447690-6267d9db-f71d-425a-87d1-1d2b8f852c22.png)
+![image](https://user-images.githubusercontent.com/94250309/150639584-2928e523-1955-4da4-84fd-df2408360d2d.png)
+
 
 the CrossEntropyLoss_output tend to decrease during training which is good, no over fitting recorded
 
@@ -42,5 +43,6 @@ The profiler html file is provided among the files in this repository, for more 
 ## Model Deployment
 After successfully conducing a training job with the best hyperparameter available, I easily called for deployment with pytorch_model.deploy(). I also run a prediction on the endpoint. the result was seen by opening the payload image as seen in the train and deploy notebook above
 
-unfortunately, I hurriedly deleted the endpoint, (I honestly did not know I was supposed to take screenshots since it was not stated in the project steps in the classroom, I found out, after completing the task in my notebook when I opened the readme file) in order not to incure cost
+![image](https://user-images.githubusercontent.com/94250309/150639611-4bc9660e-a4f8-4949-886a-aae19a332778.png)
+
 
